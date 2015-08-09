@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Just an app for scraping the events of the engadget website">
+    <meta name="author" content="Krishna Potluri">
+    <link rel="icon" href="assets/img/favicon.ico">
+
+    <title>KP | Home</title>
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">	
+
+  </head>
+
+  <body>
+
+  <br>
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">Clicks</a></li>
+            <li role="presentation"><a href="#">Profile</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Krishna Potluri</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1>My Canon Stories</h1>
+        <p class="lead">Using gh-pages i have created the repository and i am using the static hosting for this purpose.Soon the website will be updated
+	with some good clicks that i have captured in my journey with my EOS</p>
+        <p><a class="btn btn-lg btn-success" href="https://github.com/krishpotluri" role="button">Open it!</a></p>
+      </div>
+
+      <center><h3>Recent Snaps</h3></center>
+      <center><h3 id="masthead"></h3></center>
+      <div class="row marketing">
+        <div class="col-lg-6">
+          <div class="pane panel-info">
+    		  <div class="panel-heading">
+        			<h3 id="panel-title" class="panel-title one">Snap 1<a class="anchorjs-link" href="#panel-title"><span class="anchorjs-icon"></span></a></h3>
+      		  </div>
+      		  <div class="panel-body">
+        		This is image from panel one
+      		  </div>
+    	  </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="pane panel-success">
+    		<div class="panel-heading">
+        		<h3 id="panel-title" class="panel-title two">Snap 2<a class="anchorjs-link" href="#panel-title"><span class="anchorjs-icon"></span></a></h3>
+      		</div>
+      		<div class="panel-body">
+        		This is image from panel two
+      		</div>
+    	  </div>
+        </div>
+	  </div>
+
+	  <div class="row marketing">
+        <div class="col-lg-6">
+          <div class="pane panel-warning">
+    		  <div class="panel-heading">
+        			<h3 id="panel-title" class="panel-title three">Snap 3<a class="anchorjs-link" href="#panel-title"><span class="anchorjs-icon"></span></a></h3>
+      		  </div>
+      		  <div class="panel-body">
+        		This is image from panel three
+      		  </div>
+    	  </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="pane panel-danger">
+    		<div class="panel-heading">
+        		<h3 id="panel-title" class="panel-title four">Snap 4<a class="anchorjs-link" href="#panel-title"><span class="anchorjs-icon"></span></a></h3>
+      		</div>
+      		<div class="panel-body">
+        		This is image from panel four
+      		</div>
+    	  </div>
+        </div>
+	  </div>
+
+      <footer class="footer">
+        <p>&copy; Krishna Potluri 2015</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script>
+      	var d = new Date();
+      	document.getElementById("masthead").innerHTML = d.toDateString();
+      	</script>
+  </body>
+</html>
+
